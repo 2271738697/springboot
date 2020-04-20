@@ -1,0 +1,38 @@
+15:53:07.470 [main] INFO  com.cn.slf4j - Starting slf4j on DESKTOP-0D1CKPF with PID 2932 (E:\exercise\slf4j\target\classes started by 86186 in E:\exercise)
+15:53:07.473 [main] DEBUG com.cn.slf4j - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:53:07.474 [main] INFO  com.cn.slf4j - No active profile set, falling back to default profiles: default
+15:53:08.521 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:53:08.527 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:53:08.528 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:53:08.528 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:53:08.605 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:53:08.606 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1034 ms
+15:53:08.745 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:53:08.872 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:53:08.893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:53:08.896 [main] INFO  com.cn.slf4j - Started slf4j in 2.17 seconds (JVM running for 3.44)
+15:53:30.318 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:53:30.318 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:53:30.326 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+15:53:30.343 [http-nio-8080-exec-1] DEBUG com.cn.TestController - =====测试日志debug级别打印====
+15:53:30.343 [http-nio-8080-exec-1] INFO  com.cn.TestController - ======测试日志info级别打印=====
+15:53:30.343 [http-nio-8080-exec-1] ERROR com.cn.TestController - =====测试日志error级别打印====
+15:53:30.343 [http-nio-8080-exec-1] WARN  com.cn.TestController - ======测试日志warn级别打印=====
+15:58:32.183 [main] INFO  com.cn.slf4j - Starting slf4j on DESKTOP-0D1CKPF with PID 9436 (E:\exercise\slf4j\target\classes started by 86186 in E:\exercise)
+15:58:32.188 [main] INFO  com.cn.slf4j - No active profile set, falling back to default profiles: default
+15:58:33.512 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:58:33.519 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:58:33.520 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:58:33.520 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:58:33.578 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:58:33.578 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1267 ms
+15:58:33.721 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:58:33.869 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:58:33.889 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:58:33.892 [main] INFO  com.cn.slf4j - Started slf4j in 2.34 seconds (JVM running for 3.389)
+15:58:39.746 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:58:39.746 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:58:39.750 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+15:58:39.777 [http-nio-8080-exec-1] INFO  com.cn.TestController - ======测试日志info级别打印=====
+15:58:39.778 [http-nio-8080-exec-1] ERROR com.cn.TestController - =====测试日志error级别打印====
+15:58:39.778 [http-nio-8080-exec-1] WARN  com.cn.TestController - ======测试日志warn级别打印=====

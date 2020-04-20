@@ -1,0 +1,7 @@
+logging:
+  config: slf4j/src/main/resources/logback.xml #这里指定的是日志配置文件是根路径下的 logback.xml 文件，关于日志的相关配置信息，都放在 logback.xml 文件中了。
+
+  #logging.level 是用来指定具体的 mapper 中日志的输出级别，上面的配置表示
+  #com.itcodai.course03.dao 包下的所有 mapper 日志输出级别为 trace
+  level:
+    com.itcodai.course03.dao: trace
